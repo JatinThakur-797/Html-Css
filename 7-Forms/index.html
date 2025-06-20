@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Radio buttons for gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+
+        <!-- More Input Types
+    1 UserName : <input type="text" name="username" placeholder="Enter your username">
+    
+    2 Password : <input type ="password" name="password" placeholder= "Enter your Password"
+    
+    3 Radio :  <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+    4 CheackBox :   <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Subscribe to newsletter</label> 
+                    text	Allows the user to type a single line of text.
+
+    5 reset	    Represents a button that, when pressed, resets all the form controls to their initial values.
+    6 submit	Represents a button that, when pressed, submits the form.
+    7 radio	    Represents an option in a set of options that are mutually exclusive with each other.
+    8 checkbox	Represents an option in a set that may be selected independently of other options.
+    9 button	Represents a clickable button.
+    10 color	Allows the user to select a color.
+    11 date	    Allows the user to select a date.
+    12 datetime-local   Allows the user to select a date and time with no time zone.
+    13 email	Allows the user to enter an email address.
+    14 file	    Allows the user to select one or more files from their device storage.
+    15 hidden	Represents a value that is not displayed but is submitted to the server.
+    16 image	Defines an image that acts as a submit button.
+    17 month	Allows the user to select a month and year.
+    18 number	Allows the user to enter a number.
+    19 range	Allows the user to select a number from a range.
+    20 search	Allows the user to enter a search query string.
+    21 tel	    Allows the user to enter a telephone number.
+    22 time	    Allows the user to select a time.
+    23 url	    Allows the user to enter a URL.
+    24 week	    Allows the user to select a week.-->
+    </form>
+</body>
+
+</html>
