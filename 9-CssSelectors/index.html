@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssSelectors</title>
+    <style>
+        /* direct Selectors means by the element name 
+        eg : body , h1 , p , div , span , a , img etc*/
+        body{
+            background-color: aqua;
+        }
+        h1{
+            background-color: blue;
+            color: white;
+        }
+
+        /* universal selectors thats selects everthing in page */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* class selectors '.' that select a special class */
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            margin: 20px;
+
+        }
+
+        /* id selectors '#' that select a id */
+        #box1{
+            background-color: pink;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <h1>This is the class of css Selectors</h1>
+<div class="container">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div>
+</div>    
+</body>
+</html>
