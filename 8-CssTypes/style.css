@@ -1,4 +1,4 @@
 p{
-    background-color: violet;
+    background-color: violet; /* we write all inside the curly braces  called css property */
     color: aqua;
 }
