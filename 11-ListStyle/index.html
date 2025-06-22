@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>list-style-type</title>
     <style>
+        /* majorly we use list style none to make a navbar and many other feauture */
+        ul{
+            list-style-position: inside;
+            
+        }
         .ul1 {
-            list-style-type: disc;
+            list-style-type: disc; 
+            /* custom list type style  */
+            list-style-type: "😊";
         }
         .ul2 {
             list-style-type: circle;
@@ -17,6 +24,25 @@
         .ul4 {
             list-style-type: none;
         }
+        .ul5{
+            list-style-type: decimal;
+        }
+       .ul6 {
+            list-style-type: decimal-leading-zero;
+        }
+        .ul7 {
+            list-style-type: lower-roman;
+        }
+        .ul8 {
+            list-style-type: upper-roman;
+        }
+        .ul9 {
+            list-style-type: lower-alpha;
+        }
+        .ul10 {
+            list-style-type: upper-alpha;
+        }
+        
     </style>
 </head>
 <body>
@@ -35,6 +61,30 @@
     <ul class="ul4">
         <li>Hello world</li>
         <li>This is ul4</li>
+    </ul>
+    <ul class="ul5">
+        <li>Hello world</li>
+        <li>This is ul5</li>
+    </ul>
+    <ul class="ul6">
+        <li>Hello world</li>
+        <li>This is ul6</li>
+    </ul>
+    <ul class="ul7">
+        <li>Hello world</li>
+        <li>This is ul7</li>
+    </ul>
+    <ul class="ul8">
+        <li>Hello world</li>
+        <li>This is ul8</li>
+    </ul>
+    <ul class="ul9">
+        <li>Hello world</li>
+        <li>This is ul9</li>
+    </ul>
+    <ul class="ul10">
+        <li>Hello world</li>
+        <li>This is ul10</li>
     </ul>
 </body>
 </html>
