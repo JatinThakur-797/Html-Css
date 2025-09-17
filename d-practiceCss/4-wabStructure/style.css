@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.header{
+    min-height: 10%;
+    padding: 20px;
+    background-color:rgb(233, 171, 91);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+
+.header>.head2 >h1{
+    display: inline-block;
+}
+.head1{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 80%;
+    width: 3%;
+   
+}
+.head1>img{
+    border: 2px solid black;
+    border-radius: 50%;
+ height: 80%;
+ width: 80%;   
+}
+nav{
+    min-height: 10%;
+    background-color: #1b1b1b;
+    color: white;
+}
+h3{
+    display: inline;
+}
+nav>.name{
+    display: inline-block;
+    width: 60%;
+}
+.list{
+    margin-left: 19px;
+}
+nav .list , nav>.list>#nav, nav>.list>#nav>li , nav>.list>#nav>li>a{
+    color: rgb(215, 201, 201);
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-right:25px ;
+}
+nav>.list>#nav>li>a:hover{
+    color: #ff707f;
+    background-color: #ff2a5130;
+    text-decoration: underline black;
+}
+#navad{
+    padding: 25px;
+    box-sizing: border-box;
+}
+.Main{
+    min-width: 100%;
+    min-height: 60%;
+   
+    display: flex;
+}
+.Main > .aside{
+    height: 100%;
+    min-width: 20%;
+    background-color: rgb(232, 195, 146);
+    overflow: hidden;
+    text-align: center;
+}
+.Main>.aside h1{
+    background-color: rgb(255, 77, 0);
+    border: 3px solid black;
+    text-shadow: 5px 5px 15px rgb(225, 255, 0);
+}
+.Main>.aside>#marqu>img{
+    height: 60%;
+    width: 100%;
+}
+.Main> .main1{
+    
+    min-height:100%;
+    min-width: 80%;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    opacity: 1;
+    text-align: center;
+    
+}
+.Main> .main1 > p{
+    width: 65%;
+    height: 66%;
+   
+}
+.Main> .main1>h1{
+    background-color: rgb(212, 255, 0); ;
+    border: 3px solid black;
+    text-shadow: 5px 5px 10px red;
+}
+.Main> .main1>p{
+font-size: 1.5em;
+}
+footer{
+    min-height: 30%;
+    background-color: rgb(34, 33, 33);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.para{
+    height: fit-content;
+    width: 40vw;
+    margin: 5px auto;
+}
+.logof>a>img:hover{
+    border: 2px solid blue;
+    background-color: rgb(0, 76, 255);
+}
+#w1:hover{
+    border: 2px solid green;
+    background-color: green;
+}
+.logof>a img{
+    border: 2px solid rgb(133, 123, 123);
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+
+}
+.foot>.copyright{
+    font-size: 10px;
+}
