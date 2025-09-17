@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+
+}
+
+:root {
+    --font: 'Changa' !important;
+}
+
+@media only screen and (max-width : 1260px) {
+   
+.search>input {
+    min-width: 75vw;
+}
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #303030;
+}
+body *{
+font-family: var(--font);
+}
+
+.wrap {
+    min-height: 100vh;
+    max-width: 85vw;
+    background-color: #212121;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(105deg, #000000f0, #2d0000);
+    box-sizing: border-box;
+    width: 85vw;
+    padding: 30px;
+    display: flex;
+    font-family: var(--font);
+    font-size: .94rem;
+
+}
+
+.header>.logo {
+    height: 35px;
+    max-width: 240px;
+    margin-right: 40px;
+}
+
+.logo>img {
+    height: 30px;
+    width: 100%;
+
+    position: relative;
+    top: 7px;
+    left: 6px;
+}
+
+.navList>ul {
+    display: flex;
+}
+
+.navList>ul>li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.navList>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.search {
+    max-width: 85vw;
+    background-color: #303030;
+    height: 60px;
+
+    padding: 7px 10px;
+    box-sizing: border-box;
+}
+
+
+.search>input {
+    background-color: #242424;
+    border: 1px solid white;
+    min-width: 79vw;
+    height: 77%;
+    margin: auto;
+    padding: 7px 8px 7px 40px;
+    background-image: url([CITYPNG.COM]White\ Search\ Icon\ Button\ PNG\ IMG\ -\ 700x700.png);
+    background-position: 12px 7px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.search>label {
+    background-color: yellow;
+    line-height: 15px;
+    padding: 4.4px;
+    border-radius: 20%;
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: .88rem;
+
+    position: relative;
+    top: 0.5px;
+}
+
+.search>label>a {
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+
+}
+
+.icons {
+    height: 20%;
+    width: 100%;
+
+}
+
+.buttons {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+.icons>.buttons ul {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    min-width: 49.5vw;
+
+
+}
+
+
+.buttons ul img {
+    height: 15px;
+    width: 16px;
+    background-color: rgb(189, 184, 184);
+
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: -4px;
+}
+
+.buttons ul>li {
+
+    width: 100%;
+
+}
+
+.list1>li {
+
+    list-style: none;
+    border: 2px solid;
+    border-radius: 20%;
+    margin: 2px 5px;
+    padding: 7px;
+    text-align: center;
+}
+
+.list1 li>button {
+    background: inherit;
+    border: none;
+
+    color: inherit;
+    font-size: 16px;
+}
+
+#l1 {
+    border: none;
+    background: #44b81a;
+    color: #fff;
+}
+
+#l2 {
+    border: none;
+    background: #DF9A17;
+    color: #fff;
+}
+
+#l3 {
+    border: none;
+    background: #c51313;
+    color: #fff;
+}
+
+#l4 {
+    border: none;
+    background: #009DE1;
+    color: #fff;
+}
+
+.buttons1 {
+
+    width: 53%;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+
+.icons>.buttons1 ul {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    min-width: 49.5vw;
+
+
+}
+
+.buttons1 ul>li {
+
+    width: 100px;
+    height: 33px;
+    box-sizing: border-box;
+
+}
+
+.list2>li {
+
+    list-style: none;
+    border: 2px solid;
+    border-radius: 20%;
+    margin: 3px 2px;
+    border: none;
+    text-align: center;
+    background: linear-gradient(to right, #d60606, #d2ae20);
+    color: #fff;
+
+
+}
+
+.list2 li>button {
+    background: none;
+    border: none;
+
+    color: inherit;
+    font-size: 15px;
+}
+
+.main {
+    min-height: 100px;
+    padding: 15px 20px 15px;
+    background: #141414;
+   
+}
+.MainCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main >.MainCard>.card1 {
+    margin-right: 10px;
+    background: #1b1b1b;
+    height: 410px;
+    padding: 12px;
+    border-radius: 5%;
+    width: 13.66%;
+    font-family: var(--font);
+    line-height: 21px;
+}
+
+.card1 .img1 {
+    width: 100%;
+    height: 59%;
+    border-radius:5% ;
+}
+
+.card1 a{
+    text-decoration: none;
+    color:#fff;
+    font-family: var(--font);
+    font-size: 14px;
+    line-height: 1.38rem;
+
+}
+.card1 a:hover{
+    color: #16cfc1;
+}
+.img1>img {
+    width: 100%;
+    height: 100%;
+    border-radius:6% ;
+}
+
+.post-date {
+    box-sizing: border-box;
+    color: #706f6f;
+}
