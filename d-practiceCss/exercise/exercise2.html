@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multicolor navbar</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+:root{
+    --bgcolor :rgb(50, 50, 50);
+    --color : white;
+    --dis : inline-flex;
+    --hovbgColor : rgb(0, 190, 232);
+    --hovColor :blue;
+}
+.navbar{
+    background-color: var(--bgcolor);
+    color: var(--color);
+    min-height: 10vh;
+    min-width: 100vw;
+}
+.navbar>.name , .navbar>.name>h1 , .navbar>.navlinks{
+    display: var(--dis);
+
+}
+.navbar .navlinks ul{
+    display: var(--dis);
+    list-style: none;
+}
+.name{
+    margin-right: 800px;
+    padding-top: 10px;
+}
+.navlinks>ul>li>a{
+    color: var(--color);
+    text-decoration: none;
+}
+.navlinks>ul>li{
+    margin: 20px;
+    
+}
+.navlinks>ul>li>a:hover{
+    background-color: var(--hovbgColor);
+    color: var(--hovColor);
+    text-decoration: underline blue;
+}
+</style>
+<body>
+    <div class="navbar">
+        <div class="name">
+            <h1>Companay name</h1>
+        </div>
+        <div class="navlinks">
+            
+            <ul>
+             <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact us</a></li>
+                </ul>
+        </div>
+    </div>
+</body>
+</html>

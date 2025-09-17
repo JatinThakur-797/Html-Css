@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-color: rgb(38, 35, 35);
+        display: flex;
+
+    }
+    .card{
+        height: 66vh;
+        width: 20vw;
+        margin: 1px;
+        border: 2px solid black;
+        padding: 13px;
+         border-radius: 10px ;
+         background-color: rgb(199, 191, 191);
+         margin-top: 11px;
+    }
+    .card .box1{    
+        height : 66vh;
+        width: 20vw;
+        margin: auto;
+        border: 2px solid;
+         border-radius: 10px ;
+         background-color: white;
+      
+    }
+    .img{
+        padding: 2px;
+    }
+    .card>.box1 img{
+      
+    width: 99%;
+    height: 50%;
+    margin: 2px;
+    border-radius: 10px ;
+    }
+    .text{
+        padding: 20px;
+        overflow: auto;
+    }
+    .text>p{
+        display: inline-block;
+        line-height: 30px;
+    }
+    .text h2{
+        margin: 12px 0px;
+    }
+    .text #p1,#p2{
+        margin:10px 20px; 
+        color: rgb(193, 197, 197);
+    }
+    .text a:hover{
+        background-color: rgb(255, 213, 134);
+        color: black;
+       
+    }
+    .text a{
+        text-decoration: none;
+           color: rgb(193, 197, 197);
+    }
+    #p3{
+        color: rgb(87, 88, 88);
+        font-size: 16px;
+        text-align: left;
+    }
+    .button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .text button{
+        border: none;
+        height: 6vh;
+        width: 7vw;
+        background-color: rgb(170, 206, 237);
+        color: blue;
+        padding: 3px;
+        box-sizing: border-box;
+        margin: auto;
+        border-radius: 45%;
+        font-weight: bold;
+    }
+    button:hover{
+         color: rgb(170, 206, 237);
+        background-color: blue;
+    }
+    
+</style>
+<body>
+    <div class="card">
+        <div class="box1">
+            <div class="img">
+                <img id="cardImg" src="bg3.jpg" alt="cardImg">
+            </div>
+            <div class="text">
+                <p id="p1"><a href="#"> Computer</a></p> 
+                <p id="p2"><a href="#">Later</a></p>
+                <h2>This the best</h2>
+                <p id="p3">Lorem ipsum  consequatur dolor similique ipsam non! Expedita, hi i am jatin aliquid beatae?.</p>
+                <div class="button">
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="box1">
+            <div class="img">
+                <img id="cardImg" src="\cssPractice\bg2.jpg" alt="cardImg">
+            </div>
+            <div class="text">
+                <p id="p1"><a href="#"> Computer</a></p> 
+                <p id="p2"><a href="#">Later</a></p>
+                <h2>This the best</h2>
+                <p id="p3">Lorem ipsum  consequatur dolor similique ipsam non! Expedita, hi i am jatin aliquid beatae?.</p>
+                <div class="button">
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="box1">
+            <div class="img">
+                <img id="cardImg" src="\cssPractice\bg4.jpg" alt="cardImg">
+            </div>
+            <div class="text">
+                <p id="p1"><a href="#"> Computer</a></p> 
+                <p id="p2"><a href="#">Later</a></p>
+                <h2>This the best</h2>
+                <p id="p3">Lorem ipsum  consequatur dolor similique ipsam non! Expedita, hi i am jatin aliquid beatae?.</p>
+                <div class="button">
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
